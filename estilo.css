@@ -100,8 +100,8 @@ a {
 }
 
 .redes-sociais img {
-   width: 30px;
-   height: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 .redes-sociais a :hover {
@@ -160,7 +160,7 @@ h1 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 250px;
 
 }
 
@@ -344,19 +344,26 @@ ul,
 }
 
 @media screen and (max-width: 968px) {
+    .body {
+        width: 100%;
+
+    }
+
+
     .logo {
-        text-align: center;
-        margin-left: 150px;
+        margin-left: 10px;
+        width: 100%;
     }
 
     .header {
         width: 100%;
-        padding: 0;
+
+
     }
 
     .corpo,
-    .card-1,
-    .card-2,
+    .corpo-1,
+    .corpo-2,
     .corpo-3,
     .corpo-4 {
         width: 100%;
@@ -366,14 +373,23 @@ ul,
 
     .c-left>h1 {
         font-size: medium;
-        margin-right: 50px;
+        margin-right: 20px;
 
+    }
+
+    .c-right .c-left {
+        width: 100%;
+    }
+
+    .c-left {
+        margin-right: 10px;
+        margin-left: 20px;
     }
 
     .c-right>img {
         width: 150px;
         height: 150px;
-        margin-right: 40px;
+        margin-right: 10px;
         border: none;
         border-radius: 5px;
 
@@ -382,7 +398,7 @@ ul,
     .redes-sociais img {
         width: 20px;
         height: 20px;
-
+        
 
 
     }
@@ -390,7 +406,7 @@ ul,
 
 
     .redes-sociais {
-        margin-right: 100px;
+        margin-right: 60px;
     }
 
 
@@ -408,33 +424,56 @@ ul,
 
     }
 
-    .linguagem>img {
+    .linguagem,
+    img {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .linguagem-mod,
+    img {
         width: 40px;
+        height: 50px;
+
+    }
+
+    .linguagem-md,
+    img {
+        width: 30px;
         height: 40px;
 
     }
 
-    .linguagem-mod>img {
-        width: 40px;
-        height: 60px;
-
-    }
-
-    .linguagem-md>img {
+    .linguagem-m,
+    img {
         width: 40px;
         height: 20px;
-
-    }
-
-    .linguagens-m>img {
-        width: 40px;
-        height: 10px;
-
-    }
-
-    .linguagens {
         margin-left: 0;
     }
+
+    .linguagem-m {
+        margin-top: 10px;
+        margin-right: 10px;
+       
+    }
+
+
+
+
+    .linguagens {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        
+    }
+
+    .linguagens img  {
+        width: 100%;
+        
+    }
+
 
 
 
@@ -443,23 +482,26 @@ ul,
     }
 
 
-    .cards,
+    .cards {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+
+
+    }
+
+    .corpo-3 {
+        width: 100%;
+    }
+
     .card-1,
     .card-2,
     .card-3 {
-        display: flex;
-        flex-direction: column;
-
+        width: 100%;
     }
 
-    .card {
-        margin: 0;
-        padding: 0;
-    }
+  
 
-    .cards .card {
-        margin-right: 100px;
-    }
 
     .cartas {
         display: flex;
@@ -467,7 +509,13 @@ ul,
     }
 
     .carta {
-        width: 300px;
+        height: 200px;
+        width: 200px;
+
+    }
+
+    .carta>h1 {
+        margin: 40px;
     }
 
     .corpo-4 {
@@ -477,6 +525,11 @@ ul,
     .corpo-4>h3 {
         margin-top: 30px;
         margin-left: 60px;
+    }
+
+    .rodape {
+        width: 100%;
+
     }
 
 
