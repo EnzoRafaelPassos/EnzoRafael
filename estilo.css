@@ -18,10 +18,11 @@
 .logo,
 a {
     color: #ffff;
+
 }
 
 .logo {
-    margin-left: 630px;
+    margin-left: 640px;
 }
 
 
@@ -34,12 +35,13 @@ a {
 
 
 
-.c-inicio {
+.corpo-1 {
     background: linear-gradient(90deg, rgb(27, 12, 117) 5%, rgb(138, 43, 226) 53%, rgb(144, 62, 220) 100%);
     border-bottom: solid 0.5px white;
-    margin-bottom: 100px;
     border-bottom: solid 0.5px black;
     color: black;
+    padding-bottom: 40px;
+
 }
 
 
@@ -61,6 +63,7 @@ a {
     justify-content: flex-start;
     align-items: center;
 
+
 }
 
 .c-left {
@@ -68,11 +71,16 @@ a {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    margin-left: 20px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    margin-left: 30px;
+    margin-right: 30px;
 
 }
+
+.c-left>h1 {
+    padding-right: 29px;
+}
+
+
 
 
 .redes-sociais {
@@ -82,6 +90,7 @@ a {
     flex-direction: row;
     margin-top: 10px;
     margin: 10px;
+    margin-right: 200px;
 }
 
 .redes-sociais img {
@@ -96,29 +105,36 @@ a {
 
 .c-right {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: flex-end;
+    align-items: flex-end;
     flex-direction: column;
-    margin-left: 100px;
-    margin-right: 50px;
     padding-top: 200px;
-    padding-bottom: 200px;
+    margin-bottom: 150px;
 
 }
+
+.c-right,
+h1 {
+    color: rgb(0, 0, 0);
+}
+
 
 
 .c-right>img {
-    width: 350px;
+    width: 300px;
     height: 300px;
+    margin-right: 80px;
+    border-radius: 50%;
+    border: solid 0.5px rgb(0, 0, 0);
 }
 
 
-.habilidades {
+.linguagens {
     margin-top: 70px;
     margin-left: 300px;
 }
 
-.habilidades img {
+.linguagens img {
     margin-left: 20px;
 }
 
@@ -126,6 +142,13 @@ a {
 .card {
     -webkit-box-shadow: 1px 13px 26px 6px rgba(0, 0, 0, 0.67);
     box-shadow: 1px 13px 26px 6px rgba(0, 0, 0, 0.67);
+    margin: 20px;
+    height: 420px;
+    padding: 10px;
+}
+
+.card>img {
+    height: 400px;
 }
 
 .cards {
@@ -136,25 +159,48 @@ a {
 
 }
 
-.card-1 .card-2 .card-3 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-
-}
-
-.c-meio {
+.corpo-2 {
     color: rgb(0, 0, 0);
     border-bottom: solid 0.5px white;
-    margin-bottom: 130px;
-    margin: 200px;
+    margin: 210px;
+    margin-bottom: 350px;
 }
 
-.c-fim {
+.linguagem,
+img {
+    width: 80px;
+    height: 80px;
+
+}
+
+.linguagem-mod,
+img {
+    width: 60px;
+    height: 80px;
+
+}
+
+.linguagem-md,
+img {
+    width: 60px;
+    height: 80px;
+
+}
+
+.linguagens-m,
+img {
+    width: 80px;
+    height: 50px;
+
+}
+
+.corpo-2>h1 {
+    text-align: center;
+}
+
+.corpo-3 {
     background: linear-gradient(90deg, rgb(27, 12, 117) 5%, rgb(138, 43, 226) 53%, rgb(144, 62, 220) 100%);
     color: rgb(255, 255, 255);
-    border-bottom: solid 0.5px white;
     color: black;
     padding-top: 150px;
     padding-bottom: 250px;
@@ -164,8 +210,10 @@ a {
 
 ul,
 .c-left,
-.c-meio>h1,
-.c-fim>h1 {
+.corpo-2>h1,
+.corpo-3>h1,
+.corpo-4>h1,
+.carta>h1 {
     font-family: 'Noto Sans Mono', monospace;
 
 }
@@ -187,10 +235,62 @@ ul,
     padding-top: 40px;
 }
 
- .cards, .card > img :hover {
+.cards,
+.card>img :hover {
 
     padding: 10px;
 
+}
+
+.linguagens :hover {
+    padding: 5px;
+}
+
+.corpo-4 {
+    border-top: solid 0.5px black;
+    margin-bottom: 250px;
+    padding-top: 200px;
+}
+
+.corpo-4>h3 {
+
+    color: black;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+
+.corpo-4 a {
+    color: rgb(0, 47, 255);
+}
+
+
+.cartas {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.carta {
+    width: 500px;
+    height: 200px;
+    margin: 30px;
+    background-color: rgb(140, 0, 255);
+    border-radius: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    -webkit-box-shadow: 1px 13px 26px 6px rgba(0, 0, 0, 0.67);
+    box-shadow: 1px 13px 26px 6px rgba(0, 0, 0, 0.67);
+}
+
+.carta>h1 {
+    margin-top: 50px;
+    margin-left: 20px;
 }
 
 /* animaçao scrool */
@@ -213,45 +313,169 @@ ul,
     transform: translate3d(0px, 0px, 0px);
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        width: 100%;
-        padding: 0;
+/* Animacao do cursor piscando */
+
+.c-left ::after {
+    content: '|';
+    color: white;
+    margin-right: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+
+
+}
+
+@keyframes pisca {
+
+    0%,
+    100% {
+        opacity: 1;
+
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .logo {
+        text-align: center;
+        margin-left: 150px;
     }
 
     .header {
         width: 100%;
-
+        padding: 0;
     }
 
-    .logo {
-        margin-left: 0;
-    }
-
-    .todo {
+    .corpo,
+    .card-1,
+    .card-2,
+    .corpo-3,
+    .corpo-4 {
         width: 100%;
     }
 
-    .c-left {
+
+
+    .c-left>h1 {
         font-size: medium;
-        margin-right: 10px;
+        margin-right: 50px;
+
     }
 
     .c-right>img {
         width: 150px;
         height: 150px;
+        margin-right: 40px;
+        border: none;
+        border-radius: 5px;
+
     }
 
-    .card-1 .card {
-        width: 10px;
-        height: 100px;
+    .redes-sociais img {
+        width: 20px;
+        height: 20px;
+
+
+
     }
 
-    .cards>.card,
+
+
+    .redes-sociais {
+        margin-right: 100px;
+    }
+
+
+    .corpo-2 .linguagens {
+        width: 100%;
+
+    }
+
+
+
+    .corpo-2,
     img {
-        width: 100px;
-        height: 100px;
+        width: 100%;
+        margin-left: 0%;
+
     }
+
+    .linguagem>img {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .linguagem-mod>img {
+        width: 40px;
+        height: 60px;
+
+    }
+
+    .linguagem-md>img {
+        width: 40px;
+        height: 20px;
+
+    }
+
+    .linguagens-m>img {
+        width: 40px;
+        height: 10px;
+
+    }
+
+    .linguagens {
+        margin-left: 0;
+    }
+
+
+
+    .corpo-2>h1 {
+        text-align: none;
+    }
+
+
+    .cards,
+    .card-1,
+    .card-2,
+    .card-3 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .card {
+        margin: 0;
+        padding: 0;
+    }
+
+    .cards .card {
+        margin-right: 100px;
+    }
+
+    .cartas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carta {
+        width: 300px;
+    }
+
+    .corpo-4 {
+        margin-bottom: 200px;
+    }
+
+    .corpo-4>h3 {
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+
+
+
 
 
 
