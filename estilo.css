@@ -99,6 +99,11 @@ a {
     margin-bottom: 0;
 }
 
+.redes-sociais img {
+   width: 30px;
+   height: 30px;
+}
+
 .redes-sociais a :hover {
     padding: 3px;
 }
