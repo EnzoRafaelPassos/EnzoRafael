@@ -22,7 +22,8 @@ a {
 }
 
 .logo {
-    margin-left: 640px;
+    margin-left: 42%;
+    margin-right: 42%;
 }
 
 
@@ -351,8 +352,14 @@ ul,
 
 
     .logo {
-        margin-left: 10px;
+        margin-left: 31%;
+        margin-right: 31%;
         width: 100%;
+    }
+
+    .logo > h3 a {
+        width: 100%;
+        
     }
 
     .header {
@@ -390,15 +397,14 @@ ul,
         width: 150px;
         height: 150px;
         margin-right: 10px;
-        border: none;
-        border-radius: 5px;
+        border-radius: 50%;
 
     }
 
     .redes-sociais img {
         width: 20px;
         height: 20px;
-        
+
 
 
     }
@@ -441,21 +447,21 @@ ul,
     .linguagem-md,
     img {
         width: 30px;
-        height: 40px;
+        height: 45px;
 
     }
 
     .linguagem-m,
     img {
-        width: 40px;
-        height: 20px;
+        width: 50px;
+        height: 30px;
         margin-left: 0;
     }
 
     .linguagem-m {
         margin-top: 10px;
-        margin-right: 10px;
-       
+        margin-right: 20px;
+
     }
 
 
@@ -466,12 +472,12 @@ ul,
         display: flex;
         flex-direction: row;
         margin-left: 0px;
-        
+
     }
 
-    .linguagens img  {
+    .linguagens img {
         width: 100%;
-        
+
     }
 
 
@@ -485,7 +491,7 @@ ul,
     .cards {
         display: flex;
         flex-direction: column;
-        margin-left: 30px;
+        margin: 20px;
 
 
     }
@@ -498,24 +504,40 @@ ul,
     .card-2,
     .card-3 {
         width: 100%;
+        margin-left: 50%;
+        margin-right: 50%;
     }
 
-  
+    .card {
+        height: 350px;
+
+    }
+
+    .card > img {
+        height: 200px;
+    }
+
 
 
     .cartas {
-        display: flex;
-        flex-direction: column;
+        width: 100%;
+        margin: 10px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
+
     .carta {
-        height: 200px;
-        width: 200px;
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+        width: 80px;
 
     }
 
     .carta>h1 {
-        margin: 40px;
+        font-size: small;
+        margin: 10px;
     }
 
     .corpo-4 {
@@ -523,8 +545,8 @@ ul,
     }
 
     .corpo-4>h3 {
-        margin-top: 30px;
-        margin-left: 60px;
+        margin-top: 50px;
+        margin-left: 30px;
     }
 
     .rodape {
