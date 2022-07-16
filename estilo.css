@@ -213,6 +213,9 @@ img {
     border-top: solid 0.5px black;
 
 }
+.corpo-3 > h1 {
+    color: white;
+}
 
 ul,
 .c-left,
