@@ -144,11 +144,13 @@ h1 {
 
 .linguagens {
     margin-top: 70px;
-    margin-left: 300px;
+   display: flex;
+   justify-content: center;
+   margin-right: 50px;
 }
 
 .linguagens img {
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 .linguagens :hover {
@@ -202,7 +204,12 @@ img {
 img {
     width: 80px;
     height: 50px;
+    
 
+}
+
+.linguagem-m {
+    margin-top: 15px;
 }
 
 /* corpo 3 */
@@ -541,13 +548,13 @@ ul,
 
     .linguagens,
     img {
-        width: 80px;
-
-
+        width: 90px;
+        
     }
 
     .linguagens > img {
         margin-bottom: 50px;
+        height: 70px;
         
     }
 
@@ -604,6 +611,8 @@ ul,
         margin-right: 0;
 
     }
+
+    
 
     .linguagem {
         margin: 5px;
@@ -674,6 +683,10 @@ ul,
 
     .corpo-3 {
         width: 100%;
+    }
+
+    .corpo-3 > h1 {
+        margin: 20px;
     }
 
     .card-1,
