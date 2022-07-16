@@ -40,9 +40,13 @@ a {
     background-image: radial-gradient(circle at 103.03% 50%, #ff00a3 0, #f100a5 10%, #d300a3 20%, #b1009c 30%, #8d008f 40%, #66007e 50%, #40006b 60%, #1a0159 70%, #000049 80%, #00003b 90%, #000030 100%);
     border-bottom: solid 0.5px white;
     border-bottom: solid 0.5px black;
-    color: black;
+    color: rgb(255, 255, 255);
     padding-bottom: 40px;
 
+}
+
+.c-left>h1 {
+    color: white;
 }
 
 
