@@ -144,9 +144,12 @@ h1 {
 
 .linguagens {
     margin-top: 70px;
-   display: flex;
-   justify-content: center;
-   margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-right: 80px;
+    -webkit-box-shadow: 1px 13px 26px 6px rgba(0, 0, 0, 0.67);
+    box-shadow: 1px 13px 26px 6px rgba(0, 0, 0, 0.67);
 }
 
 .linguagens img {
@@ -204,7 +207,7 @@ img {
 img {
     width: 80px;
     height: 50px;
-    
+
 
 }
 
@@ -377,14 +380,62 @@ ul,
         padding-top: 30px;
         padding-left: 10%;
         margin: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        box-shadow: none;
+    }
+
+    .linguagens .linguagem,
+    img {
+        
+        margin-left: 15px;
+    }
+    .linguagens .linguagem-mod,
+    img {
+       
+        margin-left: 25px;
+    }
+
+    .linguagens .linguagem-md,
+    img {
+        
+        margin-left: 25px;
+    }
+
+    .linguagens .linguagem-m,
+    img {
+        
+        
+        margin-left: 25px;
     }
 
     .cards {
-        margin-left: 5%;
-        margin-right: 10%;
+        margin-left: 1%;
+        margin-right: 5%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
 
 
     }
+
+    .cards, img {
+        margin: 5px;
+    }
+
+
+    .cartas {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .corpo-4> h3 {
+        margin-left: 110px;
+        
+    }
+
+     
 }
 
 @media screen and (max-width: 930px) {
@@ -419,16 +470,55 @@ ul,
         display: flex;
         justify-content: center;
         flex-direction: row;
+        padding-left: 0px;
+        margin-left: 0;
+        box-shadow: none;
+
+
+
+
+    }
+    .linguagens .linguagem,
+    img {
+        
+        margin-left: 25px;
+    }
+    .linguagens .linguagem-mod,
+    img {
+       
+        margin-left: 25px;
+    }
+
+    .linguagens .linguagem-md,
+    img {
+        
+        margin-left: 25px;
+    }
+
+    .linguagens .linguagem-m,
+    img {
+        
+        
+        margin-left: 25px;
     }
 
     .linguagem-m {
         margin-top: 10px;
+
+    }
+
+    .corpo-2>.linguagens {
+        margin: 0;
     }
 
     .cards {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .cards, img {
+        margin: 5px;
     }
 
     .cartas {
@@ -539,25 +629,54 @@ ul,
     .corpo-2 {
         margin-bottom: 80px;
     }
+
     .corpo-2 .linguagens {
 
         margin: 0;
         margin-top: 90px;
 
+
     }
 
-    .linguagens,
-    img {
-        width: 90px;
-        
-    }
 
-    .linguagens > img {
+
+    .linguagens>img {
         margin-bottom: 50px;
-        height: 70px;
-        
+        display: flex;
+        justify-content: center;
+
+
+
     }
 
+    .linguagens .linguagem,
+    img {
+        height: 50px;
+        width: 90px;
+    }
+
+
+    .linguagens .linguagem-mod,
+    img {
+        height: 50px;
+        width: 70px;
+        margin-left: 10px;
+    }
+
+    .linguagens .linguagem-md,
+    img {
+        height: 40px;
+        width: 70px;
+        margin-left: 10px;
+    }
+
+    .linguagens .linguagem-m,
+    img {
+        height: 30px;
+        width: 70px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
 
 
     .corpo-2,
@@ -567,8 +686,8 @@ ul,
 
     }
 
-    .corpo-2 > .linguagens {
-      margin-left: 30%;
+    .corpo-2>.linguagens {
+        margin-left: 30%;
     }
 
     .linguagem,
@@ -612,7 +731,7 @@ ul,
 
     }
 
-    
+
 
     .linguagem {
         margin: 5px;
@@ -631,7 +750,7 @@ ul,
     .linguagem-md {
 
         margin-top: 10px;
-        width: 100px;
+
 
 
 
@@ -645,10 +764,13 @@ ul,
 
     .linguagens {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
-        
-                
+        padding-left: 0px;
+        margin-left: 0;
+        box-shadow: none;
+        margin: 0;
+        padding-right: 105px;
 
 
 
@@ -685,7 +807,7 @@ ul,
         width: 100%;
     }
 
-    .corpo-3 > h1 {
+    .corpo-3>h1 {
         margin: 20px;
     }
 
